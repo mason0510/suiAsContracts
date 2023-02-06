@@ -1,12 +1,10 @@
-# moveAsContracts
-move稳定币的合约
-sui稳定币合约的合约部分。
-
-#参考网址
-https://www.immortaldao.finance/#/dashboard
-
-
 # moveAs
+
+
+
+
+
+
 前端
 sui 连接钱包示例
 https://wallet-kit-demo.vercel.app/
@@ -106,8 +104,3 @@ rebase时参考的价格以过去24小时的成交量加权平均价为准，当
 
 
 stake/bond-rebase-unstake
-
-
-# suias
-开发完成时间：2023.2.12
-展示时间：2023.2.19
