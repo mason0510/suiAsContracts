@@ -1,0 +1,23 @@
+# SUI
+sui client active-address
+sui client gas
+
+!faucet 0x1083871113de333758c3d46136030d573f09ae18
+
+
+
+# 部署
+sui move new hello_world
+touch move file
+sui move build
+sui client gas
+sui client publish --path ./move_code/hello_world.move
+调用
+--args用来传递我们的参数，参数格式参考 Sui-JSON[12]值的函数参数列表 传递参数列表
+sui client call --address 0x1083871113de333758c3d46136030d573f09ae18 --module HelloWorld --function say_hello --args 0x1083871113de333758c3d46136030d573f09ae18
+sui client call \
+    --function incr \
+    --module counter \
+    --package 0x31f33e53a2c7a2620fc1bbf8140ffc7bde3984fa \
+    --args 0x846e1db8383dd68373cd83c6ce5242951d7beb77 \
+    --gas-budget 1000

@@ -1,8 +1,28 @@
 # moveAs
 
+# sui-move 文档
+论坛搭建视频
+https://www.bilibili.com/video/BV1ME411g7hs/
+
+
+第一个sui合约开发
+https://ja99-doge.github.io/2022/12/10/sui_smart_contract/
 
 
 
+move社区开发
+https://move-china.com/
+
+
+move案例
+https://706community.notion.site/Move-Demo-3f3a5640ea054d1fae17b84f617d7a34
+
+sui开发文档大全
+https://shimo.im/file-invite/Ce6DHkFDR28bt2kw8X3VmX5lmg046/ 猴子 邀请您协作《sui-move开发文档大全》，点击链接开始编辑
+
+
+无服务器
+https://app.netlify.com/drop
 
 
 前端
@@ -104,3 +124,8 @@ rebase时参考的价格以过去24小时的成交量加权平均价为准，当
 
 
 stake/bond-rebase-unstake
+
+
+# 编译
+稳定币项目
+sui move build --skip-fetch-latest-git-deps 
