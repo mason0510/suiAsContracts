@@ -1,8 +1,11 @@
-# SUI
+# SUI CLI 命令行命令
 sui client active-address
 sui client gas
 
 !faucet 0x1083871113de333758c3d46136030d573f09ae18
+
+
+
 
 
 
